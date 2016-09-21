@@ -9,7 +9,7 @@ using System.Threading.Tasks;
 
 namespace SavingVariables.DAL
 {
-    public class ExpressionContext : DbContext
+    public class VariableContext : DbContext
     {
 
         public virtual DbSet<Variable> Variables { get; set; } 
